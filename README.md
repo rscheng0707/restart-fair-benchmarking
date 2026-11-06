@@ -3,7 +3,7 @@
 Code, data, thermal logs, and the full pre-registration for the ICMLSC 2027 paper (ID M4338).
 
 > **Citation.** *(fill in once the proceedings reference is assigned)*
-> **Archived release.** *(Zenodo DOI badge — see “Minting the DOI” below)*
+> **Archived release.** *[![DOI](https://zenodo.org/badge/1448300647.svg)](https://doi.org/10.5281/zenodo.24015095)*
 
 Everything in the paper regenerates from this repository with one command:
 
