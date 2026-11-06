@@ -1,0 +1,10 @@
+# build artefacts
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+__pycache__/
+*.pyc
+# IOHexperimenter is fetched at build time, not vendored
+ioh/
