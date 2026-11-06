@@ -1,0 +1,37 @@
+{
+  "upload_type": "software",
+  "title": "Supplementary materials for \"Internal Parallelism Breaks Wall-Clock Budget Invariance in Restart-Fair Metaheuristic Benchmarking\"",
+  "creators": [
+    {
+      "name": "Cheng, Reginald S.",
+      "affiliation": "FEU Institute of Technology, Manila, Philippines",
+      "orcid": "0009-0005-1617-2581"
+    },
+    {
+      "name": "Alix, Abigail L.",
+      "affiliation": "FEU Institute of Technology, Manila, Philippines",
+      "orcid": "0000-0002-6357-4365"
+    },
+    {
+      "name": "Sabonsolin, Jeneffer A.",
+      "affiliation": "FEU Institute of Technology, Manila, Philippines",
+      "orcid": "0009-0006-4586-8892"
+    }
+  ],
+  "description": "<p>Code, data, thermal logs and the full pre-registration for the ICMLSC 2027 paper <em>Internal Parallelism Breaks Wall-Clock Budget Invariance in Restart-Fair Metaheuristic Benchmarking</em>.</p><p>The study provides, to the authors' knowledge, the first empirical implementation of the restart-fair protocol for time-fair metaheuristic benchmarking: 15,600 measured conditions across five seed-blocked sessions on one fully characterised platform, holding search behaviour constant while varying per-iteration cost three-, six- and twelvefold over seven thread counts, three budget couplings and fifteen seeds.</p><p><code>analysis/reproduce_all.py</code> regenerates every table and headline figure in the paper and asserts the condition counts (15,600 &rarr; 1,800 &rarr; 1,488 &rarr; 62 independent problem&times;seed blocks).</p><p>Two things to know before loading the data, both documented in the README: <code>data/voided/</code> holds a voided unpinned session that must not be analysed, and <code>tau.csv</code> has a non-obvious lookup rule.</p><p>Licensing is split: MIT for <code>code/</code> and <code>analysis/</code>, CC BY 4.0 for <code>data/</code> and <code>thermal/</code>. See LICENSE.</p>",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "metaheuristics",
+    "benchmarking",
+    "wall-clock budget",
+    "restart strategies",
+    "particle swarm optimization",
+    "parallel computing",
+    "OpenMP",
+    "reproducibility",
+    "BBOB",
+    "pre-registration"
+  ],
+  "language": "eng"
+}
